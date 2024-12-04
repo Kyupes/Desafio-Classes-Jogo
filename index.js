@@ -19,6 +19,8 @@ class personagem{
             case "Monge":
                 arma = "Artes Marciais"
                 break
+            default:
+                arma = "Arma Não Identificada"
         }
         console.log(`o tipo ${this.tipo} atacou usando ${arma}`)
     }
